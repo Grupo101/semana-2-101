@@ -1,0 +1,9 @@
+.miembro-foto{
+    border-radius: 50%;
+    height: 370px;
+    width: 370px;
+    object-fit: cover;
+}
+.centrar-imagen{
+    margin-top: -50;
+}
