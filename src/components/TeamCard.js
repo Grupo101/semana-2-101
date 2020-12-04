@@ -1,6 +1,8 @@
-<template>
+Vue.component('TeamCard',{
+    template:
+    `
     <div >
-    <h3> Targetas miembros grupo 101</h3>
+    <h3> Targetas miembros</h3>
     <div class="container-fluid">
         <div class="card-group mt-5">
 
@@ -37,27 +39,25 @@
     </div>
 </div>
 
-</template>
 
 
-
-<script>
-    export default {
-        name: "TeamCard",
-        props: ['member']
-    }
     
+    `,
 
+    data() {
+        return{
+        titulo: "Crue con veu",
+        miembros: [{codigo:"1",nombre: "Nelly Alexandra Medina Roja",descripcion:"Programador WEB1",rol:"Arquitecta de Software",image:"../src/assets/alexandrajpeg" },
+                   {codigo:"2",nombre: "Jose Daniel Delgado Ballen",descripcion:"Programador WEB2",rol:"Desarrollador Frontend",image:"../src/assets/jose.png" },
+                   {codigo:"3",nombre: "Jimmy Javier Piamonte Cañón",descripcion:"Programador WEB3",rol:"Desarrollador Backend",image:"../src/assets/jimmy.png" },
+                   {codigo:"4",nombre: "Joaquin Andres AlarconGuevara",descripcion:"Programador WEB4",rol:"Analista de Software",image:"../src/assets/jose.png" },
+                   {codigo:"5",nombre: "Juan Sebastian Loaiza Muñoz",descripcion:"Programador WEB4",rol:"Tester",image:"../src/assets/jose.png" },
+                ],
+        // nuevaTarea: '',
+        // checked: false
+            }
 
+        //   siguen los metodos  
+    }
 
-
-</script>
-
-
-
-
-<style scoped>
-
-</style>
-
-
+})
