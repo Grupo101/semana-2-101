@@ -3,7 +3,7 @@
 
 <template>
   <div id="app">
-    <h1> {{titulo}}  </h1>
+    <!-- <h1> {{titulo}}  </h1> -->
 
     <TeamCard></TeamCard>
 

@@ -1,19 +1,25 @@
 <template>
   <div>
     <h3>Targetas miembros grupo 101</h3>
-    <div class="container-fluid">
-      <div class="card-group mt-5">
-        <div class="mt-3" v-for="(item, index) of miembros" :key="item.id">
+    <div class="container"> 
+      <div class="card-deck">
+        <!-- <div class="mt-3" v-for="(item) of miembros" :key="item.id"> -->
           <!-- ,index -->
-          <div class="card">
-            <div class="card-header">
+          
+          <p> pase por teamcardsss</p>
+          <div class="card" >
+             <img
+                class="card-img-top rounded-circle"
+                v-bind:src="item.image"
+                alt="Card image" />
+            <!-- <div class="card-header">
               <img
                 class="card-img-top img-fluid rounded-circle"
-                v-bind:src="{{item.index}}"
+                v-bind:src="item.image"
                 alt="Card image"
               />
-            </div>
-
+            </div> -->
+            
             <div class="card-body bg-info text-white text-center">
               <p style="font-size: 26px">Miembro {{ item.codigo }}</p>
               <p>
@@ -29,9 +35,9 @@
             </div>
             <div class="card-footer text-center bg-warning">Grupo 101</div>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
-    </div>
+    </div> 
   </div>
 </template>
 
@@ -41,13 +47,14 @@
 export default {
   name: "TeamCard",
   props: ["member"],
-};
-</script>8/8
+}
+</script>
 
 
 
 
 <style scoped>
+
 </style>
 
 
