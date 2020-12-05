@@ -9,7 +9,7 @@
             <div class="card-header">
               <img
                 class="card-img-top img-fluid rounded-circle"
-                v-bind:src="item.index"
+                v-bind:src="{{item.index}}"
                 alt="Card image"
               />
             </div>
