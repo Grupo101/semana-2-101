@@ -10,7 +10,7 @@
           <div class="card" >
              <img
                 class="card-img-top rounded-circle"
-                v-bind:src="item.image"
+                v-bind:src="member.image"
                 alt="Card image" />
             <!-- <div class="card-header">
               <img
@@ -23,14 +23,14 @@
             <div class="card-body bg-info text-white text-center">
               <p style="font-size: 26px">Miembro {{ item.codigo }}</p>
               <p>
-                {{ item.rol }}
+                 member.rol 
               </p>
 
               <p style="font-size: 24px">
-                {{ item.nombre }}
+                {{ member.nombre }}
               </p>
               <p>
-                {{ item.descripcion }}
+                {{ member.descripcion }}
               </p>
             </div>
             <div class="card-footer text-center bg-warning">Grupo 101</div>
@@ -39,6 +39,7 @@
       </div>
     </div> 
   </div>
+  
 </template>
 
 

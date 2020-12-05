@@ -5,7 +5,7 @@
   <div id="app">
     <!-- <h1> {{titulo}}  </h1> -->
 
-    <TeamCard></TeamCard>
+    <TeamCard ></TeamCard>
 
   </div>
 </template>
