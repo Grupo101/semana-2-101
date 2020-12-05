@@ -7,10 +7,10 @@ Vue.component('TeamCard',{
         <div class="card-group mt-5">
 
             <div class=" mt-3 " v-for="(item,index) of miembros" :key="item.id">
-                <div class="card">
+                    <div class="card">
                     <div class="card-header">
-                        <img class="card-img-top img-fluid rounded-circle" src="{{item.image}}" alt="Card image">
-       
+                        <img class="card-img-top img-fluid rounded-circle" v-bind:src='item.image' alt="Card image">
+                        
                     </div>
                     
                     <div class="card-body bg-info text-white text-center ">

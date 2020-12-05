@@ -27,7 +27,7 @@ export default {
 
   data(){
     return{
-      titulo:'Miembros del grupo'
+      titulo:{name:'Miembros del grupo'}
     }
   }
 
