@@ -44,8 +44,8 @@ export default {
           descripcion:
             "Ingeniera Electronica de la Escuela Colombiana de ingenieria Julio Garavito con experiencia en infraestructuras de LANs, backbone, Wi-Fi y diseño. Entre sus pasatiempos esta ver peliculas, salir a dar paseos y leer.",
           rol: "Arquitecta de Software",
-          imagen: "./alexandra.png",
-          correo: "nelamero@hotmail.com",
+          image: "./alexandra.png",
+          
         },
         {
           codigo: "2",
@@ -53,8 +53,8 @@ export default {
           descripcion:
             "Ingeniero de sistemas de la Universidad de los Libertadores con experiencia en el area de comunicaciones electromagneticas. Entre sus pasatiempos esta resolver crucigramas y sudokus.",
           rol: "Desarrollador Frontend",
-          imagen: "./jose.png",
-          correo: "jddb26@gmail.com",
+          image: "./jose.png",
+          
         },
         {
           codigo: "3",
@@ -62,8 +62,8 @@ export default {
           descripcion:
             "Tecnologo en sistemas de la informacion de la Universidad del Tolima con experiencia en desarrollo .NET, web y escritorio. Entre sus pasatiempo esta montar bicicleta.",
           rol: "Desarrollador Backend",
-          imagen: "./jimmy.png",
-          correo: "jjpc56@hotmail.com",
+          image: "./jimmy.png",
+          
         },
         {
           codigo: "4",
@@ -71,8 +71,8 @@ export default {
           descripcion:
             "Ingeniero quimico de la Univesidad Nacional de Colombia. Docente de quimica y matematicas de bachillerato. Hobbies: literatura y series de televisión",
           rol: "Tester",
-          imagen: "./sebastian.png",
-          correo: "sebastian.0315@hotmail.com",
+          image: "./sebastian.png",
+          
         },
         {
           codigo: "5",
@@ -80,8 +80,8 @@ export default {
           descripcion:
             "Ingeniero electronico de la Univesidad del Valle. Coordinador de investigacion y desarrollo en IGT S.A.S. Hobbies: video juegos",
           rol: "Analista de Software",
-          imagen: "./joaquin.png",
-          correo: "joaquin.alarcon@correounivalle.edu.co",
+          image: "./joaquin.png",
+          
         },
         
       ],

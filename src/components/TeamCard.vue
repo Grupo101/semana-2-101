@@ -5,7 +5,7 @@
 
                 <div  class="card text-center text-white bg-info" style="border-radius:20px;">
                     <div class="d-flex justify-content-center p-2"> 
-                        <img  :src='member.imagen' class="rounded-circle" alt="imagen miembro">
+                        <img  :src='member.image' class="rounded-circle" alt="imagen miembro">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title text-dark" style="font-weight:bold">{{member.nombre}}</h5>
@@ -15,7 +15,7 @@
                         
                     </div>
                     <div class="card-footer " > 
-                        <small class=" text-dark" style="font-weight:bold">{{member.correo}}</small> 
+                        <small class=" text-dark" style="font-weight:bold">grupo_101@misiontic.com.co</small> 
                     </div>
                 </div>
                        
