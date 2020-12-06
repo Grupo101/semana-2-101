@@ -63,15 +63,6 @@ export default {
         },
         {
           codigo: "4",
-          nombre: "Joaquin Andres Alarcon Guevara",
-          descripcion:
-            "Ingeniero electronico de la Univesidad del Valle. Coordinador de investigacion y desarrollo en IGT S.A.S. Hobbies: video juegos",
-          rol: "Analista de Software",
-          imagen: "./joaquin.png",
-          correo: "joaquin.alarcon@correounivalle.edu.co",
-        },
-        {
-          codigo: "5",
           nombre: "Juan Sebastian Loaiza Muñoz",
           descripcion:
             "Ingeniero quimico de la Univesidad Nacional de Colombia. Docente de quimica y matematicas de bachillerato. Hobbies: literatura y series de televisión",
@@ -79,6 +70,16 @@ export default {
           imagen: "./sebastian.png",
           correo: "sebastian.0315@hotmail.com",
         },
+        {
+          codigo: "5",
+          nombre: "Joaquin Andres Alarcon Guevara",
+          descripcion:
+            "Ingeniero electronico de la Univesidad del Valle. Coordinador de investigacion y desarrollo en IGT S.A.S. Hobbies: video juegos",
+          rol: "Analista de Software",
+          imagen: "./joaquin.png",
+          correo: "joaquin.alarcon@correounivalle.edu.co",
+        },
+        
       ],
     };
   },
