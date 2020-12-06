@@ -16,6 +16,7 @@
         </div>
       </div>
     </div>
+    <page-footer></page-footer>
   </div>
 </template>
 
@@ -23,11 +24,13 @@
 
 <script>
 import TeamCard from "./components/TeamCard.vue";
+import PageFooter from './components/PageFooter.vue'
 
 export default {
   name: "App",
   components: {
     TeamCard,
+    PageFooter,
   },
 
   data() {
@@ -84,5 +87,7 @@ export default {
     };
   },
 };
+
 </script>
+    
 
