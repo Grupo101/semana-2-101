@@ -2,13 +2,15 @@
 
 
 <template>
-  <div id="app">
-    <div class="row justify-content-center mb-1">
-      <h1 style="color: blue">Integrantes del equipo 101 Mision TIC</h1>
-    </div>
-
+  <div id="app" >
+    
+    
+    
     <div class="container-fluid">
       <div class="row justify-content-center mb-1">
+        <div class=" container-fluid row justify-content-center mb-1 bg-warning " style="border-radius:30px;">
+          <h1 style="color: blue">INTEGRANTES EQUIPO 101 MISION TIC </h1>
+        </div>
         <div class="card-group">
           <div class="col mt-1" v-for="(member1, index) of member" :key="index">
             <team-card :member="member1"></team-card>
@@ -17,7 +19,7 @@
       </div>
     </div>
     
-    <page-footer></page-footer>
+    <!-- <page-footer></page-footer> -->
   </div>
 </template>
 
@@ -25,13 +27,13 @@
 
 <script>
 import TeamCard from "./components/TeamCard.vue";
-import PageFooter from './components/PageFooter.vue'
+// import PageFooter from './components/PageFooter.vue'
 
 export default {
   name: "App",
   components: {
     TeamCard,
-    PageFooter,
+    // PageFooter,
   },
 
   data() {

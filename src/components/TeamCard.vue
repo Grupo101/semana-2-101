@@ -9,8 +9,8 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title text-dark" style="font-weight:bold">{{member.nombre}}</h5>
-                        <p class="card-text"><span> Rol: </span>{{member.rol}}</p>
-                        <p class="card-text"><span> Código: </span> {{member.codigo}}</p>
+                        <p class="card-text" style="color:rgb(255,210,200);"><span> Rol: </span>{{member.rol}}</p>
+                        <p class="card-text" style="color:rgb(255,210,200);"><span> Código: </span> {{member.codigo}}</p>
                         <p class="card-text text-justify" style="color:rgb(0,0,139);font-size: 17px;">{{member.descripcion}}</p>
                         
                     </div>
