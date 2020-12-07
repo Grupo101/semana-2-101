@@ -1,7 +1,9 @@
-<template>
-  <div id="app">
 
-  
+
+
+<template>
+  <div id="app" >
+    
     <div class="container-fluid">  
       <h2  class="text-center"> NOTICIAS</h2>   
 
@@ -9,21 +11,101 @@
           <section-api> </section-api>
 
     </div>
+    
+    <div class="container-fluid  pb-3">
+      <div class="row justify-content-center mb-1">
+        <div class=" container-fluid row justify-content-center mb-1 bg-warning  " style="border-radius:30px;">
+          <h1 style="color: blue">INTEGRANTES EQUIPO 101 MISION TIC </h1>
+        </div>
+        <div class="card-group ">
+          <div class="col mt-1 " v-for="(member1, index) of member" :key="index">
+            <team-card :member="member1"></team-card>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" >
+    <page-footer></page-footer>
+    </div>
+  
+
   </div>
 
 
 </template>
 
+
+
 <script>
+import TeamCard from "./components/TeamCard.vue";
+import PageFooter from './components/PageFooter.vue'
 
 import SectionApi from './components/SectionApi.vue'
 
 export default {
-  name: 'App',
-  components:{
-    SectionApi
-    
-  }
-}
+
+  name: "App",
+  components: {
+    TeamCard,
+    SectionApi,
+    PageFooter,
+  },
+
+  data() {
+    return {
+      titulo: "Integrantes Eguipo 101",
+      member: [
+        {
+          codigo: "1",
+          nombre: "Nelly Alexandra Medina Roja",
+          descripcion:
+            "Ingeniera Electronica de la Escuela Colombiana de ingenieria Julio Garavito con experiencia en infraestructuras de LANs, backbone, Wi-Fi y diseño. Entre sus pasatiempos esta ver peliculas, salir a dar paseos y leer.",
+          rol: "Arquitecta de Software",
+          image: "./alexandra.png",
+          
+        },
+        {
+          codigo: "2",
+          nombre: "Jose Daniel Delgado Ballen",
+          descripcion:
+            "Ingeniero de sistemas de la Universidad de los Libertadores con experiencia en el area de comunicaciones electromagneticas. Entre sus pasatiempos esta resolver crucigramas y sudokus.",
+          rol: "Desarrollador Frontend",
+          image: "./jose.png",
+          
+        },
+        {
+          codigo: "3",
+          nombre: "Jimmy Javier Piamonte Cañón",
+          descripcion:
+            "Tecnologo en sistemas de la informacion de la Universidad del Tolima con experiencia en desarrollo .NET, web y escritorio. Entre sus pasatiempo esta montar bicicleta.",
+          rol: "Desarrollador Backend",
+          image: "./jimmy.png",
+          
+        },
+        {
+          codigo: "4",
+          nombre: "Juan Sebastian Loaiza Muñoz",
+          descripcion:
+            "Ingeniero quimico de la Univesidad Nacional de Colombia. Docente de quimica y matematicas de bachillerato. Hobbies: literatura y series de televisión",
+          rol: "Tester",
+          image: "./sebastian.png",
+          
+        },
+        {
+          codigo: "5",
+          nombre: "Joaquin Andres Alarcon Guevara",
+          descripcion:
+            "Ingeniero electronico de la Univesidad del Valle. Coordinador de investigacion y desarrollo en IGT S.A.S. Hobbies: video juegos",
+          rol: "Analista de Software",
+          image: "./joaquin.png",
+          
+        },
+        
+      ],
+    };
+  },
+};
+
 </script>
+    
 
