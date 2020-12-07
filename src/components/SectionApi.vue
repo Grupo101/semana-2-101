@@ -2,20 +2,20 @@
   <div>
     <div class="row mt-md-5 mt-sm-5 mt-xs-5 text-dark bg-ligh">
       <div
-        class="col-lg-6 col-xs-12"
+        class="col-lg-6 col-xs-12 mb-3"
         v-for="(noticia, index) of noticias"
         :key="index"
       >
-        <div class="d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center ">
           <div class="p-3">
-            <img :src="noticia.urlToImage" class="rounded mx-auto d-block  rounded-bottom" style="height: auto; max-width: 220px;" alt="noticia poster" />
+            <img :src="noticia.urlToImage" class="rounded mx-auto d-block  rounded-bottom  card-body" style="height: auto; max-width: 220px;" alt="noticia poster" />
           </div>
 
-          <div class="p-2">
-            <h5>{{ noticia.title }}</h5>
+          <div class="p-2 card-body mb-1">
+            <h5 class="card-title">{{ noticia.title }}</h5>
             <hr />
 
-            <p>
+            <p class="card-text">
               {{ noticia.description }}
             </p>
           </div>
@@ -24,9 +24,9 @@
         <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
           <a
             :href="noticia.url"
-            class="btn btn-outline-info"
+            class="btn btn-outline-info mb-5"
             >Ver noticia
-          </a>
+          </a >
         </div>
       </div>
     </div>
