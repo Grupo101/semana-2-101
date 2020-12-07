@@ -10,10 +10,10 @@
       <h2 class="text-center mt-5">INTEGRANTES EQUIPO 101 MISIÓN TIC</h2>
       <div class="row justify-content-center mb-5 pt-1 ">
         <div class="col mt-5">
-          <div class=" container-fluid row justify-content-center mb-1 "></div>
-          <div class="card-group ">
+          <div class=" container row justify-content-center mb-1 "></div>
+          <div class="card-group justify-content-around ">
             <div
-              class="col mt-1 d-flex"
+              class="col mt-1 d-flex col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-2  "
               v-for="(member1, index) of member"
               :key="index"
             >

@@ -1,5 +1,5 @@
 <template>
-    <div  class=" text-center text-white card bg-info " style="border-radius:20px;">
+    <div  class=" text-center text-white card bg-info justify-content-center" style="border-radius:20px;">
         <div class="d-flex justify-content-center p-2"> 
             <img  :src='member.image' class="rounded-circle card-img-top p-2" alt="imagen miembro">
         </div>
