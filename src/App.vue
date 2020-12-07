@@ -4,7 +4,13 @@
 <template>
   <div id="app" >
     
-    
+    <div class="container-fluid">  
+      <h2  class="text-center"> NOTICIAS</h2>   
+
+
+          <section-api> </section-api>
+
+    </div>
     
     <div class="container-fluid  pb-3">
       <div class="row justify-content-center mb-1">
@@ -22,7 +28,10 @@
     <page-footer></page-footer>
     </div>
   
+
   </div>
+
+
 </template>
 
 
@@ -31,10 +40,14 @@
 import TeamCard from "./components/TeamCard.vue";
 import PageFooter from './components/PageFooter.vue'
 
+import SectionApi from './components/SectionApi.vue'
+
 export default {
+
   name: "App",
   components: {
     TeamCard,
+    SectionApi,
     PageFooter,
   },
 
