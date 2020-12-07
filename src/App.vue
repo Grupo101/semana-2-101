@@ -6,7 +6,7 @@
     
     
     
-    <div class="container-fluid">
+    <div class="container-fluid  pb-3">
       <div class="row justify-content-center mb-1">
         <div class=" container-fluid row justify-content-center mb-1 bg-warning " style="border-radius:30px;">
           <h1 style="color: blue">INTEGRANTES EQUIPO 101 MISION TIC </h1>
@@ -18,8 +18,10 @@
         </div>
       </div>
     </div>
-    
+    <div class="container-fluid" >
     <page-footer></page-footer>
+    </div>
+  
   </div>
 </template>
 

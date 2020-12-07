@@ -1,7 +1,5 @@
 <template>
 
-             
-
 
                 <div  class="card text-center text-white bg-info" style="border-radius:20px;">
                     <div class="d-flex justify-content-center p-2"> 
@@ -15,7 +13,8 @@
                         
                     </div>
                     <div class="card-footer " > 
-                        <small class=" text-dark" style="font-weight:bold">grupo_101@misiontic.com.co</small> 
+                        <a class=" text-dark" style="font-weight:bold" href="mailto:grupo_101@misiontic.com.co">grupo_101@misiontic.com.co</a>
+                        
                     </div>
                 </div>
                        
