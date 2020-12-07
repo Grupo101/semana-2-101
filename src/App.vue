@@ -8,11 +8,11 @@
     
     <div class="container-fluid  pb-3">
       <div class="row justify-content-center mb-1">
-        <div class=" container-fluid row justify-content-center mb-1 bg-warning " style="border-radius:30px;">
+        <div class=" container-fluid row justify-content-center mb-1 bg-warning  " style="border-radius:30px;">
           <h1 style="color: blue">INTEGRANTES EQUIPO 101 MISION TIC </h1>
         </div>
-        <div class="card-group">
-          <div class="col mt-1" v-for="(member1, index) of member" :key="index">
+        <div class="card-group ">
+          <div class="col mt-1 " v-for="(member1, index) of member" :key="index">
             <team-card :member="member1"></team-card>
           </div>
         </div>

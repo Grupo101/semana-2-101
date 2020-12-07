@@ -1,7 +1,7 @@
 <template>
 
 
-                <div  class="card text-center text-white bg-info" style="border-radius:20px;">
+                <div  class="card text-center text-white bg-info " style="border-radius:20px;">
                     <div class="d-flex justify-content-center p-2"> 
                         <img  :src='member.image' class="rounded-circle" alt="imagen miembro">
                     </div>
