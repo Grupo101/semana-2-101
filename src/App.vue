@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <div class="container-fluid">
+    <top-banner></top-banner>
+    <div  id="new" class="container-fluid">
       <h2 class="text-center pt-5 mb-3">NOTICIAS</h2>
 
       <section-api> </section-api>
     </div>
 
-    <div class="container-fluid  pb-5  pt-2">
-      <h2 class="text-center mt-5">INTEGRANTES EQUIPO 101 MISIÓN TIC</h2>
-      <div class="row justify-content-center mb-5 pt-1 ">
-        <div class="col mt-5">
-          <div class=" container row justify-content-center mb-1 "></div>
-          <div class="card-group justify-content-around ">
-            <div
-              class="col mt-1 d-flex col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-2  "
-              v-for="(member1, index) of member"
-              :key="index"
-            >
-              <team-card :member="member1"></team-card>
-            </div>
+    <div id="equipo" class="container-fluid  pb-5  pt-2">
+      <h2 class="text-center mt-5 pb-5">INTEGRANTES EQUIPO 101 MISIÓN TIC</h2>
+      <div class="card-group pt-3 ">
+        <div class="row row-eq-height">
+          <div class="col-sm-1"></div>
+          <div
+            class="col-sm-12 col-lg-2 p-1"
+            v-for="(member1, index) of member"
+            :key="index"
+          >
+            <team-card :member="member1"></team-card>
           </div>
+          <div class="col-sm-1"></div>
         </div>
       </div>
     </div>
@@ -32,12 +32,13 @@
 <script>
 import TeamCard from "./components/TeamCard.vue";
 import PageFooter from "./components/PageFooter.vue";
-
 import SectionApi from "./components/SectionApi.vue";
+import TopBanner from "./components/TopBanner.vue";
 
 export default {
   name: "App",
   components: {
+    TopBanner,
     TeamCard,
     SectionApi,
     PageFooter,

@@ -2,13 +2,13 @@
   <div>
     <div class="row mt-md-5 mt-sm-5 mt-xs-5 text-dark bg-ligh">
       <div
-        class="col-lg-6 col-xs-12 mb-3"
+        class="col-lg-6 col-xs-12 pb-4"
         v-for="(noticia, index) of noticias"
         :key="index"
       >
-        <div class="d-flex justify-content-center align-items-center ">
-          <div class="p-3">
-            <img :src="noticia.urlToImage" class="rounded mx-auto d-block  rounded-bottom  card-body" style="height: auto; max-width: 220px;" alt="noticia poster" />
+        <div class="d-flex justify-content-center">
+          <div class="p-1 aling-top">
+            <img :src="noticia.urlToImage" class="rounded mx-auto d-block  rounded-bottom  card-body" style="height: auto; max-width: 220px; display: inline-block;" alt="noticia poster" />
           </div>
 
           <div class="p-2 card-body mb-1">
@@ -21,10 +21,10 @@
           </div>
         </div>
 
-        <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+        <div class="d-flex container-fluid justify-content-end pb-2 mt-n2 pt-2">
           <a
             :href="noticia.url"
-            class="btn btn-outline-info mb-5"
+            class="btn btn-outline-info "
             >Ver noticia
           </a >
         </div>
