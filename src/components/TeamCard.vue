@@ -1,9 +1,9 @@
 <template>
-    <div  class=" text-center text-white card bg-info " style="border-radius:20px;">
-        <div class="d-flex justify-content-center p-2"> 
+    <div  class=" text-center  card bg-light " style="border-radius:20px; min-height:750px; ">
+        <div class="d-flex justify-content-center p-1"> 
             <img  :src='member.image' class="rounded-circle card-img-top p-2" alt="imagen miembro">
         </div>
-        <div class="card-body">
+        <div class="card-body" style="">
             <h5 class="card-title text-dark" style="font-weight:bold">{{member.nombre}}</h5>
             <p class="card-text" ><span> Rol: </span>{{member.rol}}</p>
             <p class="card-text" ><span> Código: </span> {{member.codigo}}</p>

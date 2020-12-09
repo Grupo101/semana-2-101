@@ -8,7 +8,7 @@
             Este sitio se diseño con el fin de poner en practica los
             conocimientos adquiridos durante la semana 2
           </p>
-          <a href="https://github.com/Grupo101/semana-2-101" class="text-decoration-none" target="_blank"
+          <a href="https://github.com/Grupo101/semana-2-101" class="text-decoration-none btn btn-outline-info text-white" target="_blank"
             >Grupo 101</a
           >
         </div>
@@ -44,8 +44,8 @@
       </div>
     </div>
     <div class="footer-copyright text-center py-3 pt-5">
-      © 2020 Copyright:
-      <a href="#" class="text-decoration-none"> Grupo 101</a>
+      © 2020 Copyright: Grupo 101
+      
     </div>
   </footer>
 </template>
