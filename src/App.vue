@@ -10,10 +10,10 @@
     <div id="equipo" class="container-fluid  pb-5  pt-2">
       <h2 class="text-center mt-5 pb-5">INTEGRANTES EQUIPO 101 MISIÓN TIC</h2>
       <div class="card-group pt-3 ">
-        <div class="row row-eq-height">
-          <div class="col-sm-1"></div>
+        <div class=" row row-eq-height">
+          <div class=" col-sm-1"></div>
           <div
-            class="col-sm-12 col-lg-2 p-1"
+            class="d-flex col-sm-12 col-lg-2 p-1"
             v-for="(member1, index) of member"
             :key="index"
           >
